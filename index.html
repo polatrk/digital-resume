@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pierre-Alexis Thiebot</title>
+</head>
+
+<body>
+    <header class="header-div">
+        <nav class="nav-menu">
+            <a href="#pageprofile" class="rounded-header">
+                <p class="nav-link">Profile</p>
+            </a>
+            <a href="#pageprojects" class="rounded-header">
+                <p class="nav-link">Projects</p>
+            </a>
+            <a href="#pageeducation" class="rounded-header">
+                <p class="nav-link">Education</p>
+            </a>
+            <a href="#pageskills" class="rounded-header">
+                <p class="nav-link">Skills</p>
+            </a>
+            <a href="#pagecontact" class="rounded-header">
+                <p class="nav-link">Contact</p>
+            </a>
+        </nav>
+    </header>
+    <div class="page" id="pageprofile">
+        <div class="pagetitle"><h1 class="font-bold">PROFILE</h1></div>
+        <div class="picbox boxshadow">
+            <img class="largebox" src="images/pp.png" alt="pp.png">
+        </div>
+        <div class="textbox row largebox gap-large boxshadow">
+            <div style="width: 35vh;">
+                <h1 style="margin-bottom: 5%;" class="font-bold">About me</h1>
+                <h3>I'm a student in developpement with good knowledge in game developpement and more
+                    generally a broad technical exposure.</h3>
+            </div>
+            <div class="vseparator"></div>
+            <div style="width: 35vh;">
+                <h1 style="margin-bottom: 5%;" class="font-bold">Details</h1>
+                <h2 class="font-bold">Name:</h2>
+                <h3>Pierre-Alexis Thiebot</h3>
+                <h2 class="font-bold">Age:</h2>
+                <h3>20 years</h3>
+                <h2 class="font-bold">Location:</h2>
+                <h3>Meudon, France</h3>
+            </div>
+        </div>
+    </div>
+    <div class="page project" id="pageprojects">
+        <div class="pagetitle"><h1 class="font-bold">PROJECTS</h1></div>
+        <div class="featuredgame">
+            <div style="width: 65vh; margin-right: 1vh;" class="textbox gap-medium column mediumbox boxshadow">
+                <h1 class="font-bold">Featured project: </h1>
+                <div class="hseparator"></div>
+                <h2>Grotto Vert</h2>
+                <h3>Grotto Vert is a one touch vertical platformer where you have to get to the end of the level 
+                    using checkpoints and dodge ennemies. This project was done for school using Unity.</h3>
+                <a href="https://github.com/pithieLS/VerticalPlatformer" target="_blank"><img src="images/open-external.png" alt=""></a>
+            </div>
+            <div class="boxshadow"><iframe src="https://pithiels.github.io/GrottoVert_WebGL/" frameborder="0" scrolling="no"></iframe></div>
+        </div>
+        <div class="projectscontainer mediumbox-x">
+            <img src="images/gol.gif" alt="gol.gif">
+            <a href="https://github.com/pithieLS/GameOfLife_SFML" target="_blank"><div class="projectdesc">
+                <h1 class="font-bold">Conway's Game Of Life</h1>
+                <h2>This game is based on Conway's Game Of Life. It's written in C++ using the SFML graphics lib.</h2>
+               <img src="images/open-external.png" alt="">
+            </div></a>
+        </div>
+        <div class="projectscontainer mediumbox-x">
+            <img src="images/AutoClicker.png" alt="AutoClicker.png">
+            <a href="https://github.com/pithieLS/polatrks_AutoClicker" target="_blank"><div class="projectdesc">
+                <h1 class="font-bold">Auto clicker</h1>
+                <h2>I like MMORPG so i made an higly customizable autoclicker to farm even when i take a bathroom 
+                    break. Done using WPF w/ C# .NET framework</h2>
+                <img src="images/open-external.png" alt="">
+            </div></a>
+        </div>
+        <div class="projectscontainer mediumbox-x">
+            <img src="images/mb.png" alt="mb.png">
+            <a href="https://polatrk.itch.io/myths-bay" target="_blank"><div class="projectdesc">
+                <h1 class="font-bold">Myths Bay</h1>
+                <h2>3rd person RPG where you play as a young pirate captain and help him in his quest for glory 
+                    to mark the golden age of piracy. Done using Unreal engine 5 using BP and C++.
+                </h2>
+                <img src="images/open-external.png" alt="">
+            </div></a>
+        </div>
+        <div class="projectscontainer mediumbox-x">
+            <img src="images/creavor.gif" alt="creavor.gif">
+            <a href="https://github.com/GratonR/TowerDefense" target="_blank"><div class="projectdesc">
+                <h1 class="font-bold">Creavor</h1>
+                <h2>Tower defense game where you can buy turrets, guns and upgrade them. Done using Unreal engine 5 using BP and C++.</h2>
+                <img src="images/open-external.png" alt="">
+            </div></a>
+        </div>
+    </div>
+    <div class="page" id="pageeducation">
+        <div class="pagetitle"><h1 class="font-bold">EDUCATION</h1></div>
+        <div class="timeline">
+            <div class="timeline-container">
+                <div class="timeline-content left">
+                    <h1>Lycée La Source</h1>
+                    <h2>Bac général</h2>
+                    <h3>2018-2021</h3>
+                </div>
+                <div class="timeline-content right">
+                    <h1>Futurae</h1>
+                    <h2>Bachelor JV-GD et Programmation</h2>
+                    <h3>2021-2024</h3>
+                </div>
+                <div class="timeline-content left">
+                    <h1>Epitech</h1>
+                    <h2>Master Architecte Système Réseau et Sécurité</h2>
+                    <h3>2024-2027</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="page" id="pageskills">
+        <div class="pagetitle"><h1 class="font-bold">SKILLS/ABILITIES</h1></div>
+        <div class="skillscontainer">
+            <div class="skill">
+                <img src="images/ue5.png" alt="ue5.png">
+                <h3>Unreal Engine 5</h3>
+            </div>
+            <div class="skill">
+                <img src="images/unity.png" alt="unity.png">
+                <h3>Unity</h3>
+            </div>
+            <div class="skill">
+                <img src="images/cpp.png" alt="cpp.png">
+                <h3>C++</h3>
+            </div>
+            <div class="skill">
+                <img src="images/cs.png" alt="cs.png">
+                <h3>C#</h3>
+            </div>
+            <div class="skill">
+                <img src="images/sfml.png" alt="sfml.png">
+                <h3>SFML</h3>
+            </div>
+            <div class="skill">
+                <img src="images/python.png" alt="python.png">
+                <h3>Python</h3>
+            </div>
+            <div class="skill">
+                <img src="images/html.png" alt="html.png">
+                <h3>HTML</h3>
+            </div>
+            <div class="skill">
+                <img src="images/css.png" alt="css.png">
+                <h3>CSS</h3>
+            </div>
+            <div class="skill">
+                <img src="images/js.png" alt="js.png">
+                <h3>JavaScript</h3>
+            </div>
+            <div class="skill">
+                <img src="images/wpf.png" alt="wpf.png">
+                <h3>WPF</h3>
+            </div>
+            <div class="skill">
+                <img src="images/qt.png" alt="qt.png">
+                <h3>QT Creator</h3>
+            </div>
+            <div class="skill">
+                <img src="images/git.png" alt="git.png">
+                <h3>Git</h3>
+            </div>
+            <div class="skill">
+                <img src="images/github.png" alt="github.png">
+                <h3>GitHub</h3>
+            </div>
+            <div class="skill">
+                <img src="images/arduino.png" alt="arduino.png">
+                <h3>Arduino</h3>
+            </div>
+            <div class="skill">
+                <img src="images/lensstudio.png" alt="lensstudio.png">
+                <h3>Lens Studio</h3>
+            </div>
+        </div>
+    </div>
+    <div class="page" id="pagecontact">
+        <div class="pagetitle"><h1 class="font-bold">CONTACT</h1></div>
+        <div class="textbox column gap-large boxshadow" style="width: 125vh;">
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="2f2d706c-eced-4510-b0cb-d5b3207f5627">
+                <input type="text" placeholder="Name" id="name" name="name" required>
+                <input type="email" placeholder="E-mail" id="email" name="email" required>
+                <input type="tel" placeholder="Phone" id="phone" name="phone">
+                <textarea placeholder="Your message..." id="message" name="message" rows="5" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
