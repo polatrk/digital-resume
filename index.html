@@ -33,14 +33,16 @@
         <div class="picbox boxshadow">
             <img class="largebox" src="images/pp.png" alt="pp.png">
         </div>
-        <div class="textbox row largebox gap-large boxshadow">
+        <div class="textbox largebox gap-large boxshadow">
             <div style="width: 35vh;">
                 <h1 style="margin-bottom: 5%;" class="font-bold">About me</h1>
                 <h3>I'm a student in developpement with good knowledge in game developpement and more
                     generally a broad technical exposure.</h3>
             </div>
-            <div class="vseparator"></div>
-            <div style="width: 35vh;">
+
+            <div class="vseparator desktop-content"></div>
+            <div class="hseparator mobile-content"></div>
+            <div style="width: 35vh; margin-bottom: 1vh;">
                 <h1 style="margin-bottom: 5%;" class="font-bold">Details</h1>
                 <h2 class="font-bold">Name:</h2>
                 <h3>Pierre-Alexis Thiebot</h3>
@@ -53,8 +55,8 @@
     </div>
     <div class="page project" id="pageprojects">
         <div class="pagetitle"><h1 class="font-bold">PROJECTS</h1></div>
-        <div class="featuredgame">
-            <div style="width: 65vh; margin-right: 1vh;" class="textbox gap-medium column mediumbox boxshadow">
+        <div class="featuredproject">
+            <div class="textbox gap-medium column mediumbox boxshadow">
                 <h1 class="font-bold">Featured project: </h1>
                 <div class="hseparator"></div>
                 <h2>Grotto Vert</h2>
@@ -189,7 +191,7 @@
     </div>
     <div class="page" id="pagecontact">
         <div class="pagetitle"><h1 class="font-bold">CONTACT</h1></div>
-        <div class="textbox column gap-large boxshadow" style="width: 125vh;">
+        <div class="textbox gap-large boxshadow" style="width: 125vh;">
             <form action="https://api.web3forms.com/submit" method="POST">
                 <input type="hidden" name="access_key" value="2f2d706c-eced-4510-b0cb-d5b3207f5627">
                 <input type="text" placeholder="Name" id="name" name="name" required>
